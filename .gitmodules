@@ -1,0 +1,3 @@
+[submodule "multimodal_ar/Source/RobofleetUnrealClient"]
+	path = multimodal_ar/Source/RobofleetUnrealClient
+	url = https://github.com/UTNuclearRoboticsPublic/RobofleetUnrealClient.git
