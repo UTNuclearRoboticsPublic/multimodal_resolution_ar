@@ -66,6 +66,17 @@
 		{
 			"Name": "XRVisualization",
 			"Enabled": true
+		},
+		{
+			"Name": "AzureSpatialAnchors",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"HoloLens",
+				"Android",
+				"IOS",
+				"Mac"
+			]
 		}
 	]
 }
