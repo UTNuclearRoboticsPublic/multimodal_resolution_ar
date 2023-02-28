@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.27",
+	"EngineAssociation": "4.26",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -27,6 +27,7 @@
 		{
 			"Name": "UXTools",
 			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/f9f9cddaf5834ad1abeda49da34adf85",
 			"SupportedTargetPlatforms": [
 				"Win64",
 				"HoloLens",
@@ -56,7 +57,7 @@
 		},
 		{
 			"Name": "MicrosoftOpenXR",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/ef8930ca860148c498b46887da196239",
 			"SupportedTargetPlatforms": [
 				"Win64",
@@ -68,14 +69,29 @@
 			"Enabled": true
 		},
 		{
-			"Name": "AzureSpatialAnchors",
+			"Name": "OculusVR",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Android"
+			]
+		},
+		{
+			"Name": "MrtkHub",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/211d009f26e943f19f41bbbaff9f273c"
+		},
+		{
+			"Name": "AugREImagePlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "AzureSpatialAnchorsForWMR",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
 				"Win64",
-				"HoloLens",
-				"Android",
-				"IOS",
-				"Mac"
+				"HoloLens"
 			]
 		}
 	]

@@ -14,7 +14,7 @@ class AHttpActor : public AActor
 {
 	GENERATED_BODY()
 
-		FString HostURL = "192.168.11.11:3000";
+	FString HostURL = "192.168.11.11:3000";
 	FString AugreDBTable = "augredbtable";
 
 public:
