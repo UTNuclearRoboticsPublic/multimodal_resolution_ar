@@ -83,10 +83,6 @@
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/211d009f26e943f19f41bbbaff9f273c"
 		},
 		{
-			"Name": "AugREImagePlugin",
-			"Enabled": true
-		},
-		{
 			"Name": "AzureSpatialAnchorsForWMR",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
