@@ -16,7 +16,7 @@ The multi grounding technique combines voice commands and interactive interfaces
 ## Usage
 1. Clone the Repo
  ```sh
- git clone --recursive https://github.com/UTNuclearRobotics/multimodal_resolution_ar.git
+ git clone --recursive https://github.com/UTNuclearRoboticsPublic/multimodal_resolution_ar.git
  ```    
 Update the Submodules.
 ```sh
