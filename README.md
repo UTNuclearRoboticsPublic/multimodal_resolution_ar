@@ -10,7 +10,8 @@ The multi grounding technique combines voice commands and interactive interfaces
   * System that enables ROS-based robot-to-robot communication.
 * [Azure Spatial Anchor Account](https://azure.microsoft.com/en-us/services/spatial-anchors/)
   * Built in Microsoft feature to allows HoloLens and Robots co-localize with each other.
-* [GPT to UMRF parser node](https://github.com/temoto-framework/gpt_umrf_parser/tree/demo_test)
+* [GPT to UMRF parser node](https://github.com/temoto-framework/gpt_umrf_parser/tree/demo_test) 
+  * Node that receives NL commands, sends a request to a GPT model and provides the output as UMRF Graphs.
 * [TeMoto](https://github.com/temoto-framework/temoto)
   * Framework used to control the execution flow of robotic tasks.
 * [TeMoto Config Package](https://github.com/temoto-framework-demos/gpt_temoto_demo.git)
