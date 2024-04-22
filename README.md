@@ -24,10 +24,11 @@ The multi grounding technique combines voice commands and interactive interfaces
  ```sh
  git clone --recursive https://github.com/UTNuclearRoboticsPublic/multimodal_resolution_ar.git
  ```    
-2. Generate the solution
-3. Package the project and deploy to the HoloLens Device
+2. Generate the solution file
+  * Right click on multimodal_ar.uproject and select "Generate Visual Studio Project Files" from the menu to create the .sln file
+4. Package the project and deploy to the HoloLens Device
 
-Find mode documentation on how to run and deploy apps using Unreal engine [here](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/unreal/unreal-quickstart)
+Find mode documentation on how to run and deploy apps using Unreal Engine [here](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/unreal/unreal-quickstart)
 
 # Run the Demo
 
@@ -70,4 +71,6 @@ A coordinate system and a chat window will appear. Place the coordinate frame at
 The HoloLens uses visual marker information (b) and voice commands to generate a prompt in a string format, which is then sent to the gpt_parser_node through the `/command` topic. The node appends a few examples to the prompt and sends the request to the GPT model. It takes some time for the model to generate an output, and once it is ready, a sequence of blocks is spawned on the HoloLens, representing the UMRF Graph as feedback, with a combination of `navigation`, `manipulation`, and `take_photo` actions. The robot should start executing the graph. Each block is highlighted with a different color based on the state of execution. (c)
 
 [<img src="GPT_Parser_AR_Demo.png" height="480"/><br/>](https://github.com/UTNuclearRoboticsPublic/multimodal_resolution_ar/blob/main/Demo%20Setup.png)
+
+For more information about the Prompt Experiments and dataset construction, please refer to the [github repo](https://github.com/temoto-framework/gpt_umrf_parser/tree/selma-devel)
 
